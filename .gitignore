@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Python Cache & Database
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+*.db
+backend/cybersentinel.db
+
+# Environment & IDE
+.env
+.env.local
+.vscode/
+.idea/
+.DS_Store
+
+# Large dataset raw files (sample_network_traffic.csv is tracked)
+Dataset/data1.csv
+
+# Build Outputs
+frontend/dist/
+reports/*.pdf
